@@ -26,6 +26,7 @@ header{
 }
 header i{
     font-size: 10px;
+    
 }
 header i:hover{
     cursor: pointer;
