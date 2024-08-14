@@ -1,0 +1,179 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+nav a{
+    font-size: 12px !important;
+    color: white !important; 
+}
+nav .navbar-brand{
+    font-size: 15px !important;
+}
+nav .home{
+    text-decoration: underline !important;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.navbar-expand-lg .navbar-collapse{
+    width: 100% !important;
+}
+.dynamic{
+    font-size:  50px;
+}
+header i{
+    font-size: 10px;
+}
+header i:hover{
+    cursor: pointer;
+}
+header .media{
+    width: 30px;
+    height: 30px;
+    background-color: #0000004D;
+}
+section .btn{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+section button{
+    font-family: "Poppins", sans-serif;
+    border: solid black 1px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    font-size: 11px;   
+}
+section .btn1:hover{
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+section .btn2:hover{
+    background-color: black !important;
+    color: white;
+    cursor: pointer;
+}
+#service .icon:hover,#contact .icon:hover{
+    background-color: black !important;
+    color: white;
+    
+}
+.icon:hover i{
+    transform: scale(1.03);
+}
+#port .layer{
+    background-color: #ffffffd9; position: absolute; left: 0; top: 100%; bottom: 0;right: 0;
+    overflow: hidden;
+}
+#port .item:hover .layer{
+    top: 0;
+    transition: 3ms;
+}
+#port .icon:hover, .submit:hover{
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+
+}
+.client img{
+    width: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-indent:0;
+    border: none !important;
+    background-color: gray;
+}
+
+.card{
+    border: none !important;
+}
+#team .layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#ffffffd9 ;
+    overflow: hidden;
+    opacity: 0;
+}
+#team .parent:hover .layer{
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition: 500ms;
+}
+
+#team .icon:hover{
+    cursor: pointer;
+    background-color: transparent !important;
+    color: black !important;
+}
+.img-con{
+    background-image: url(imgs/dots.png);
+}
+.img-con img{
+    transform: translate(10px,20px);
+    
+}
+.ser{
+    width: fit-content;
+    z-index: 1 !important;
+}
+
+.ser::before{
+    content: ' ';
+    background-image: url(imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    
+    left: 0;
+    bottom: 10;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    z-index: -1 !important;  
+
+}
+.nav-pills{
+    --bs-nav-pills-link-active-color:normal !important;
+    --bs-nav-pills-link-active-bg: white !important;
+}
+.h {
+    --bs-nav-link-color:normal !important;
+    justify-content: center;
+}
+.x{
+    padding: 0 !important; 
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+}
+.x:hover{
+    color: black !important;
+    
+   
+    cursor: pointer !important;
+
+}
+.ul .active{
+    border-bottom: 2px black solid;
+    border-radius: 0 !important;
+}
+@media screen and (max-width:768px) {
+    .dynamic{
+        font-size:  30px;
+    }
+    input{
+        width: 100% !important;
+        
+    }
+    
+}
