@@ -3,11 +3,10 @@
     
 }
 nav a{
-    font-size: 12px !important;
     color: white !important; 
 }
 nav .navbar-brand{
-    font-size: 15px !important;
+   letter-spacing: 1px;
 }
 nav .home{
     text-decoration: underline !important;
@@ -26,7 +25,7 @@ header{
 }
 header i{
     font-size: 10px;
-    
+
 }
 header i:hover{
     cursor: pointer;
@@ -45,8 +44,7 @@ section button{
     font-family: "Poppins", sans-serif;
     border: solid black 1px;
     padding: 4px 15px;
-    border-radius: 5px;
-    font-size: 11px;   
+    border-radius: 5px;   
 }
 section .btn1:hover{
     background-color: white !important;
@@ -153,7 +151,7 @@ section .btn2:hover{
 }
 .x{
     padding: 0 !important; 
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     
 }
@@ -167,6 +165,7 @@ section .btn2:hover{
 .ul .active{
     border-bottom: 2px black solid;
     border-radius: 0 !important;
+    
 }
 @media screen and (max-width:768px) {
     .dynamic{
